@@ -19,6 +19,11 @@ header
 text-align: center;
 }
 
+.corps
+{
+position: relative;
+}
+
 .main
 {
 display: flex;
@@ -38,9 +43,8 @@ height: ;
 
 .cercle
 {
-  height: 30px;
-  width: 30px;
- 
+  height: 6%;
+  width: 22%;
   border-radius: 50%;
   display: flex;   
   opacity: .6;
@@ -50,8 +54,8 @@ height: ;
 .knee
 {
 position:absolute; 
-top: 66%;
-left: 39.8%;
+top: 71%;
+left: 23.8%;
 background:#0d0d0d;
 }
 
@@ -59,8 +63,8 @@ background:#0d0d0d;
 {
 
 position:absolute; 
-top: 26%; 
-left: 38.5%; 
+top: 19%; 
+left: 10.5%; 
 background:#0d0d0d;
 }
 
@@ -69,8 +73,8 @@ background:#0d0d0d;
 {
 
 position:absolute; 
-top: 15%; 
-left: 41.5%; 
+top: 3%; 
+left: 39.4%; 
 background:#0d0d0d;
 }
 
@@ -78,8 +82,8 @@ background:#0d0d0d;
 .arm
 {
 position:absolute; 
-top: 42%; 
-left: 45.6%; 
+top: 40%; 
+left: 80.6%; 
 background:#0d0d0d;
 }
 
@@ -87,8 +91,8 @@ background:#0d0d0d;
 .hand
 {
 position:absolute; 
-top: 48%; 
-left: 37.4%; 
+top: 49%; 
+left: -0.6%; 
 background:#0d0d0d;
 }
 
@@ -96,8 +100,8 @@ background:#0d0d0d;
 .foot
 {
 position:absolute; 
-top: 78%; 
-left: 42.9%; 
+top: 89%; 
+left: 53.9%; 
 background:#0d0d0d;
 }
 
@@ -110,4 +114,5 @@ text-align: center;
 .sidetext
 {
 padding: 10px;
+max-height: 500px;
 }
